@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    background-color: #ffffff; White background for simplicity
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Dark text */
+}
+
+/* Header and Name Styling */
+#name {
+    font-family: cursive;
+    font-size: 38px;
+    font-weight: bold;
+    color: #F0A402; /* Bugs and Binary Orange */
+    opacity: 1;
+}
+
+/* About Section Styling */
+.about {
+    font-family: cursive;
+    font-size: 18px;
+    color: #555555; /* Mid-gray text */
+}
+
+/* Headings */
+h1 {
+    color: #F0A402; /* Bugs and Binary Orange */
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+h4.about {
+    color: #F0A402; /* Matching h1 color for consistency */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff; /* White navbar */
+    border-bottom: 2px solid #F0A402; /* Orange accent border */
+}
+
+.nav-link {
+    color: #333333; /* Dark text for contrast */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #F0A402; /* Bright orange on hover */
+}
+
+/* List Items */
+li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333333; /* Standard dark text */
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #F0A402; /* Orange accent on hover */
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff; /* White table background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray borders */
+    color: #333333;
+}
+
+th {
+    background-color: #F0A402; /* Orange header */
+    color: #ffffff; /* White text */
+}
+
+/* Timeline List */
+.list-group-item {
+    background-color: #ffffff; /* White background */
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #333333;
+}
+
+.list-group-item h4 {
+    margin: 0;
+    font-weight: bold;
+    color: #F0A402; /* Accent orange */
+}
+
+.list-group-item p {
+    margin: 5px 0 0;
+    color: #555555; /* Muted gray */
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #F0A402; /* Orange button */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #d68802; /* Darker orange on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Dark footer background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 10px solid #F0A402; /* Orange border accent */
+}
