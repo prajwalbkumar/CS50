@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: cursive;
+    font-family: Brush Script MT;
     line-height: 1.6;
     background-color: #ffffff; White background for simplicity
     margin: 0;
@@ -10,7 +10,7 @@ body {
 
 /* Header and Name Styling */
 #name {
-    font-family: cursive;
+    font-family: Brush Script MT;
     font-size: 38px;
     font-weight: bold;
     color: #F0A402; /* Bugs and Binary Orange */
@@ -19,7 +19,7 @@ body {
 
 /* About Section Styling */
 .about {
-    font-family: cursive;
+    font-family: Brush Script MT;
     font-size: 18px;
     color: #555555; /* Mid-gray text */
 }
